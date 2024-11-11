@@ -27,3 +27,17 @@ Source: https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency/data
 ### `Sleep_health_and_lifestyle_dataset.csv`
 
 Source: https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
+
+
+## Intermediate
+
+Files derived from the raw data. These are intermediate, because not all
+necessary data preparation and processing has been done already.
+
+### `sleep_data_main_intermediate.csv`
+
+Derived from `student_sleep_patterns.csv` by selecting relevant columns.
+
+## Processed
+
+Finalized data for training, evaluating and testing models.
