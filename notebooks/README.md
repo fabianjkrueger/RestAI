@@ -1,6 +1,6 @@
 # Notebooks
 
-## `data_preparation.ipynb`
+## `01-data_preparation.ipynb`
 
 - Exploratory data analysis of the downloaded data sets
 
@@ -8,4 +8,4 @@
 
 - Potentially: Integrate useful data from different data sets to one larger set
 
-## train_evaluate_compare_models.ipynb
+## `02-train_evaluate_compare_models.ipynb`
