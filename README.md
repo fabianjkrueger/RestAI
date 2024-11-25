@@ -83,7 +83,7 @@ python scripts/predict.py
 # build the image
 docker build -t restai .
 
-# Run the container
+# run the container
 # -p maps host port to container port (host:container)
 docker run -p 9696:9696 restai
 # if that doesn't work (may happen if you use bash instead of zsh, run:)
