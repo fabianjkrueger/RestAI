@@ -55,8 +55,6 @@ conda activate RestAI
 
 ## Query the Model
 
-# Model Inference
-
 The model can be queried when deployed
 using flask as well as docker.
 Just choose one of both.
