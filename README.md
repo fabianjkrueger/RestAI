@@ -45,8 +45,12 @@ the `environment.yaml` file.
 
 You need to have conda installed to do this.
 
-```
+```bash
+# create conda environment
 conda env create -f environment.yaml
+
+# activate conda environment
+conda activate RestAI
 ```
 
 ## Query the Model
