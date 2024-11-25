@@ -18,6 +18,7 @@
 
 - Same for Integrated data
 
-## `03-inference_flask_localhost.ipynb`
+## `03-inference_flask_docker.ipynb`
 
-- Examples of how the model can be queried when hosted locally.
+- Examples of how the model can be queried when hosted
+using flask and / or docker.

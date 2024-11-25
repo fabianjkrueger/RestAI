@@ -55,12 +55,42 @@ conda activate RestAI
 
 ## Query the Model
 
-1. Run `python scripts/predict.py`
-2. Open the notebook `03-inference_flask_localhost.ipynb` and run the
-the preparations.
-3. Instructions for querying the model can be found in the sections
-following the preparations. You can easily exchange the examples for
+# Model Inference
+
+The model can be queried when deployed
+using flask as well as docker.
+Just choose one of both.
+
+To make this work, you first have to start the application.
+Make sure your current working
+directory is the base directory of this repository: `RestAI/`.
+Now run one of the two provided commands.
+
+Then you can query the model using the
+code in the notebook `03-inference_flask_localhost.ipynb`.
+It contains instructions for querying the model.
+You can easily exchange the examples for
 your own queries.
+
+#### Flask
+
+```bash
+# start application
+python scripts/predict.py
+```
+
+#### Docker
+
+```bash
+# build the image
+docker build -t restai .
+
+# Run the container
+# -p maps host port to container port (host:container)
+docker run -p 9696:9696 restai
+# if that doesn't work (may happen if you use bash instead of zsh, run:)
+# docker run -p 9696::9696 restai
+```
 
 ## Reproduce the Project
 
