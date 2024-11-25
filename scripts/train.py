@@ -38,7 +38,7 @@ final_model = ExtraTreesRegressor(
     max_features='sqrt',
     min_samples_leaf=4,
     min_samples_split=10,
-    n_estimators=100,
+    n_estimators=50,
     random_state=1337,
     n_jobs=-1
 )
