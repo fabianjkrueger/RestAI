@@ -94,9 +94,13 @@ docker run -p 9696:9696 restai
 
 This is the pipeline of the strictly necessary steps:
 
-0. Acquire data if it should not be available in this repo. Otherwise, find it in `data/`.
+
+0. Clone repository using `git clone https://github.com/fabianjkrueger/RestAI/``
+0. Create and activate environment according to instructions in `Get the Dependencies`.
+1. Acquire data if it should not be available in this repo. Otherwise, find it in `data/`.
 1. Run notebook `01-data_preparation.ipynb` to prepare and save data.
 2. Run script `python scripts/train.py` to train the final model.
-3. To query the model, run `python scripts/predict.py`, then open
+3. To query the model, host it according to instructions in `Query the Model`,
+then open
 notebook `03-inference_flask_localhost.ipynb` to find code 
 and ready to use examples.
