@@ -66,3 +66,23 @@ Choose your preferred one.
 I considered the Kaggle API to be the most comfortable one.
 For others, the easiest way may be just manually downloading the data, and 
 moving the files to the cloned repository.
+
+## `train.py`
+
+- Train the final model (model selection was done in notebook
+`02-train_evaluate_compare_models.ipynb`)
+- Save final model to a pickle file
+
+Run like this:
+```bash
+# if current working directory is repo root "RestAI"
+python scripts/train.py
+
+# if current working directory is scripts direcory "RestAI/scripts"
+python train.py
+```
+
+## `predict.py`
+
+- Load the final model (model was trained in script `train.py`)
+- Serve it via the web service Flask
