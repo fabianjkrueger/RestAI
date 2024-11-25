@@ -2,11 +2,30 @@
     <img src="images/logo.png" width="100%">
 </div>
 
-# Description
+# 🌚 It's been a long day, traveller... you should take a Rest! 😴
 
-Sleep Machine Learning
+Ever caught yourself doom-scrolling at 2 AM, knowing you'll regret it tomorrow? Yeah, me too. In our always-on world, sleep often takes a back seat to, well, everything else. Yet ironically, while we're all chasing productivity and self-improvement, we're missing out on sleep - the ultimate performance enhancer.
 
-Made as midterm project for DataTalk ML-Zoomcamp 2024
+That's where RestAI comes in. It's a simple tool that predicts how well you might sleep based on your daily habits. Just plug in some basic info about your day - things like caffeine intake, screen time, and physical activity - and it'll give you a heads-up about your potential sleep quality.
+
+No fancy sleep trackers or complicated apps. Just straightforward feedback to help you make better choices throughout your day. Because sometimes, knowing the impact of that late-night coffee or extra Netflix episode is all we need to make smarter decisions.
+Sweet dreams! 🌙
+
+
+## Technical Description
+
+This project was made as midterm project for DataTalk ML-Zoomcamp 2024.
+An Extra Trees Regressor was trained on a synthetic data set
+(test size: n = 400) about sleep quality.
+Variables include things like caffeine intake, typical bedtime,
+wakeup time or physical activity.
+Output is a score between 0 (worst sleep) and 1 (best sleep)
+
+Disclaimer: This project was done for training purposes.
+Unfortunately, the data used here was synthetic, and its size was
+too low to produce reliable results.
+Please do not rely on any recommendations made by the algorithm.
+This is not sleep advice. Have fun exploring the project 💚
 
 # Usage
 
@@ -29,3 +48,23 @@ You need to have conda installed to do this.
 ```
 conda env create -f environment.yaml
 ```
+
+## Query the Model
+
+1. Run `python scripts/predict.py`
+2. Open the notebook `03-inference_flask_localhost.ipynb` and run the
+the preparations.
+3. Instructions for querying the model can be found in the sections
+following the preparations. You can easily exchange the examples for
+your own queries.
+
+## Reproduce the Project
+
+This is the pipeline of the strictly necessary steps:
+
+0. Acquire data if it should not be available in this repo. Otherwise, find it in `data/`.
+1. Run notebook `01-data_preparation.ipynb` to prepare and save data.
+2. Run script `python scripts/train.py` to train the final model.
+3. To query the model, run `python scripts/predict.py`, then open
+notebook `03-inference_flask_localhost.ipynb` to find code 
+and ready to use examples.
