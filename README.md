@@ -33,7 +33,7 @@ This is not sleep advice. Have fun exploring the project 💚
 
 Clone the repository and change working directory.
 
-```
+```bash
 git clone https://github.com/fabianjkrueger/RestAI.git
 cd RestAI
 ```
