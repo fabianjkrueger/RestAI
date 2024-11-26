@@ -96,7 +96,7 @@ docker run -p 9696:9696 restai
 This is the pipeline of the strictly necessary steps:
 
 
-0. Clone repository using `git clone https://github.com/fabianjkrueger/RestAI/``
+0. Clone repository using `git clone https://github.com/fabianjkrueger/RestAI/`
 1. Create and activate environment according to instructions in `Get the Dependencies`.
 2. Acquire data if it should not be available in this repo. Otherwise, find it in `data/`.
 3. Run notebook `01-data_preparation.ipynb` to prepare and save data.
