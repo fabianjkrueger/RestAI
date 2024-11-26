@@ -19,7 +19,7 @@ An Extra Trees Regressor was trained on a synthetic data set
 (test size: n = 400) about sleep quality.
 Variables include things like caffeine intake, typical bedtime,
 wakeup time or physical activity.
-Output is a score between 0 (worst sleep) and 1 (best sleep)
+Output is a score between 0 (worst sleep) and 1 (best sleep).
 
 Disclaimer: This project was done for training purposes.
 Unfortunately, the data used here was synthetic, and its size was
