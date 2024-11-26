@@ -16,7 +16,7 @@ Sweet dreams! 🌙
 
 This project was made as midterm project for DataTalk ML-Zoomcamp 2024.
 An Extra Trees Regressor was trained on a synthetic data set
-(test size: n = 400) about sleep quality.
+(train size: n = 400) about sleep quality.
 Variables include things like caffeine intake, typical bedtime,
 wakeup time or physical activity.
 Output is a score between 0 (worst sleep) and 1 (best sleep).
