@@ -86,3 +86,5 @@ python train.py
 
 - Load the final model (model was trained in script `train.py`)
 - Serve it via the web service Flask
+
+Instructions for hosting can be found in main `README`.

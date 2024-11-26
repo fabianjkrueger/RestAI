@@ -2,11 +2,11 @@
     <img src="images/logo.png" width="100%">
 </div>
 
-# 🌚 It's been a long day, traveller... you should take a Rest! 😴
+# 🌚 It's been a long day, traveller... you should take a Rest!
 
-Ever caught yourself doom-scrolling at 2 AM, knowing you'll regret it tomorrow? Yeah, me too. In our always-on world, sleep often takes a back seat to, well, everything else. Yet ironically, while we're all chasing productivity and self-improvement, we're missing out on sleep - the ultimate performance enhancer.
+Ever caught yourself doom-scrolling at 2 AM, knowing you'll regret it tomorrow? Yeah, me too. In our always-on world, sleep often takes a back seat to, well, everything else. Yet ironically, while we're all chasing productivity and self-improvement, we're missing out on sleep - the ultimate performance enhancer 🔥
 
-That's where RestAI comes in. It's a simple tool that predicts how well you might sleep based on your daily habits. Just plug in some basic info about your day - things like caffeine intake, screen time, and physical activity - and it'll give you a heads-up about your potential sleep quality.
+That's where RestAI comes in. It's a simple tool that predicts how well you might sleep based on your daily habits. Just plug in some basic info about your day - things like caffeine intake, screen time, and physical activity - and it'll give you a heads-up about your potential sleep quality 😴
 
 No fancy sleep trackers or complicated apps. Just straightforward feedback to help you make better choices throughout your day. Because sometimes, knowing the impact of that late-night coffee or extra Netflix episode is all we need to make smarter decisions.
 Sweet dreams! 🌙
@@ -34,6 +34,7 @@ This is not sleep advice. Have fun exploring the project 💚
 Clone the repository and change working directory.
 
 ```bash
+# clone repo to current working directory
 git clone https://github.com/fabianjkrueger/RestAI.git
 cd RestAI
 ```

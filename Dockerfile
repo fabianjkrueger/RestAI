@@ -7,7 +7,7 @@ RUN pip install pipenv
 # set working directory
 WORKDIR /app
 
-# copy only necessary files
+# copy model, script for flask deployment and dependencies
 COPY ./models ./models
 COPY ./scripts ./scripts
 COPY ./Pipfile .
