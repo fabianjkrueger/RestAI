@@ -28,16 +28,33 @@ Source: https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency/data
 
 Source: https://www.kaggle.com/datasets/uom190346a/sleep-health-and-lifestyle-dataset
 
-
-## Intermediate
-
-Files derived from the raw data. These are intermediate, because not all
-necessary data preparation and processing has been done already.
-
-### `sleep_data_main_intermediate.csv`
-
-Derived from `student_sleep_patterns.csv` by selecting relevant columns.
-
 ## Processed
 
-Finalized data for training, evaluating and testing models.
+Finalized and solit data for training, evaluating and testing models.
+Each subdirectory contains four files.
+Here is what they represent:
+
+|**file**|**represents**|
+|-|-|
+|`.*test_features.csv`|`X_test`|
+|`.*test_labels.csv`|`y_test`|
+|`.*train_features.csv`|`X_train`|
+|`.*train_labels.csv`|`y_train`|
+
+All four files were generated in the notebook
+`01-data_preparation.ipynb`.
+
+### Main
+
+This is the main data set of this project.
+It was used to train the final model.
+It proved to be the most useful for the task of sleep prediction.
+It is derived from `student_sleep_patterns.csv` by 
+selecting and processing relevant columns.
+
+### Integrated
+
+An experimental data set resulting by integrating four
+individual data sets about sleep quality.
+In the end, this experimental approach didn't prove to be
+useful, so the data was not used to train the final model.
